@@ -1,0 +1,22 @@
+{
+    "name": "cnxh/laravelog",
+    "description": "another laravel log component, separator different levels' log into different files",
+    "authors": [
+        {
+            "name": "cnxh",
+            "email": "do.not.reply@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "illuminate/log": "4.2.*",
+        "monolog/monolog": "~1.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cnxh\\Laravelog": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
