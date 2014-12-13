@@ -1,8 +1,6 @@
 {
     "name": "cnxh/laravelog",
-    "description": "enhance of the default laravel logger, which provide seperating different level's log into different files. and you can store the log files just you want (such as different day different directory)
-
-替换原有的laravel日志记录组件，提供按日志等级（debug/notice/warning/errr..etc)分文件记录日志，并且可以将这些文件动态的记录到不同目录中（比如按天记录日志）",
+    "description": "enhance of the default laravel logger, which provide seperating different level's log into different files. and you can store the log files just you want (such as different day different directory) 替换原有的laravel日志记录组件，提供按日志等级（debug/notice/warning/errr..etc)分文件记录日志，并且可以将这些文件动态的记录到不同目录中（比如按天记录日志）",
     "keywords": ["laravel","log","logging"],
     "license": "MIT",
     "authors": [
