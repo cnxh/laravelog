@@ -1,6 +1,6 @@
 {
     "name": "cnxh/laravelog",
-    "description": "another laravel log component, separator different level's log into different files 支持laravel日志按错误等级记录到不同文件中，默认按天分文件夹记录",
+    "description": "another laravel log component, seperate different level's log into different files (支持laravel日志按错误等级记录到不同文件中，默认按天分文件夹记录)",
     "keywords": ["laravel","log","logging"],
     "license": "MIT",
     "authors": [

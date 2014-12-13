@@ -13,11 +13,11 @@ class Writer extends BaseWriter {
 	public function init() {
 		// load the laravelog's configurations
 		$configs = Config::get('laravelog::log');
-		// default path of the log file store
+		// default path where the log file store
 		$defaultPath = app('path.storage').'/logs/'.date('Ymd');
-		// here we register the handler by our configurations
+		// here we register the handler by the configurations
 		foreach($configs as $level => $config) {
-			// only register the level who are enabled
+			// only register the level who are enabled (default false)
 			if (isset($config['enable']) && $config['enable'] == true) {
 				$bubble = isset($config['bubble']) && $config['bubble'] == true;
 				$path = rtrim(!empty($config['path']) ? $config['path'] : $defaultPath, '/\\');
