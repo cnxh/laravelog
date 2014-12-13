@@ -35,7 +35,7 @@ class Writer extends BaseWriter {
 	 *
 	 * @param  string  $path
 	 * @param  string  $level
-	 * @param  int     $bubble
+	 * @param  bool    $bubble
 	 * @return void
 	 */
 	public function useFiles($path, $level = 'debug', $bubble = true)
