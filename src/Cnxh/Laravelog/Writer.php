@@ -22,7 +22,7 @@ class Writer extends BaseWriter {
 				$bubble = isset($config['bubble']) && $config['bubble'] == true;
 				$path = rtrim(!empty($config['path']) ? $config['path'] : $defaultPath, '/\\');
 				if (!file_exists($path)) {
-					mkdir($path, 0644, true);
+					mkdir($path, 0744, true);
 				}
 				$path = $path.'/'.$level.'.log';
 				$this->useFiles($path, $level, $bubble);
